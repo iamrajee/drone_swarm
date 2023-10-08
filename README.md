@@ -1,9 +1,12 @@
 # drone_swarm
 
-# Demo
-ego-planner & ego-planner-swarm: code, [Demo](https://youtu.be/3Qbo0vZSxag)
+# Experiments
+1. ego-planner & ego-planner-swarm: code, [Video 1](https://youtu.be/3Qbo0vZSxag), [2](https://youtu.be/HOO_PjKB0Ws), [Herd](https://youtu.be/HOO_PjKB0Ws), [V2](https://youtu.be/bdVy5nFA1N8)
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/73973c82-e78e-4a1b-aa63-03cb844e9dfe)
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/1bd0567a-bab7-47a4-b4a4-c44d384b88db)
+
+2. Multi UAV Simulator | Malintha [video 1](https://youtu.be/jvOl3TvK7yU?si=6cizDqbl5FvE6Hlb) [Video 2](https://youtu.be/HqIlaxgbwcA)
+
 
 # Resources
 1. [Paper](https://github.com/iamrajee/drone_swarm/blob/main/resources/paper/Asian%20Journal%20of%20Control%20-%202022%20-%20Ouyang%20-%20Formation%20control%20of%20unmanned%20aerial%20vehicle%20swarms%20%20A%20comprehensive%20review.pdf): **Asian Journal of Control - 2022 - Ouyang - Formation control of unmanned aerial vehicle swarms A comprehensive review**  
