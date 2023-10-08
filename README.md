@@ -31,3 +31,19 @@ Swarm of robots is a group of multiple autonomous agents, collaborating with eac
 3. [Paper](https://github.com/iamrajee/drone_swarm/blob/main/resources/paper/MQLINK_A_Scalable_and_Robust_Communication_Network_for_Autonomous_Drone_Swarms.pdf) 
 [Video](https://www.youtube.com/watch?v=uB29Q0hU6Z8) : **Robust Communication for Autonomous Drone Swarms / MQLINK_A_Scalable_and_Robust_Communication_Network_for_Autonomous_Drone_Swarms**  
 This research task presents a novel drone network architecture, named MQLINK, for autonomous drone swarms which simultaneously addresses the issues of communication, coordination, and scalability. The proposed system utilizes a lightweight, efficient MQTT protocol and incorporates a self developed UAVLINK module to ensure robust communication in various scenarios such as emergencies and infrastructure failures. The effectiveness of MQLINK in leader-follower formation and proximity detection is demonstrated through real-world experiments for the prototypes. This work advances drone swarm technology, offering a practical solution for enhancing mission efficiency, completion rate and group complementarity. The wide spread applications include drone display, surveillance, logistics, construction site inspection, disaster relief and more.
+
+4. **EGO-Swarm_A_Fully_Autonomous_and_Decentralized_Quadrotor_Swarm_System_in_Cluttered_Environments** [Paper](https://ieeexplore.ieee.org/abstract/document/9561902)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/d4bcbed4-3b27-4dff-b20a-02e0c8c078a8)
+The communication framework discussed by author of paper consists of two networks: a broadcast network and a chain network.  
+
+1. Broadcast Network: It facilitates communication among agents by sharing collision-free trajectories.
+Trajectories are immediately broadcast to all agents, who then store them for generating safe trajectories when needed.
+Two methods are proposed to reduce the possibility of collisions:
+Trajectories are broadcast at a given frequency to avoid computational burden.
+Agents check for potential collisions upon receiving trajectories and generate new collision-free trajectories if necessary.
+The computational complexity is managed by comparing an agent's position with trajectories received from surrounding agents within the planning range.  
+  
+2. Chain Network:  This network is used for timestamp synchronization and system startup management.
+Agents generate trajectories in a predefined order during system startup.
+Each agent generates its initial trajectory after receiving trajectories from agents with higher priority through the chain network, preventing chaos during startup.
+In summary, the communication framework employs a broadcast network for immediate trajectory sharing and collision avoidance and a chain network for orderly trajectory generation during system startup.
