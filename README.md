@@ -7,6 +7,10 @@
 
 2. Multi UAV Simulator | Malintha [video 1](https://youtu.be/jvOl3TvK7yU?si=6cizDqbl5FvE6Hlb) [Video 2](https://youtu.be/HqIlaxgbwcA)
 
+3. **flock2**: https://github.com/clydemcqueen/flock2
+   
+4.  **ros2swarm**:
+5.  **micros_swarm_framework**: http://wiki.ros.org/micros_swarm_framework
 
 # Resources
 1. [Paper](https://github.com/iamrajee/drone_swarm/blob/main/resources/paper/Asian%20Journal%20of%20Control%20-%202022%20-%20Ouyang%20-%20Formation%20control%20of%20unmanned%20aerial%20vehicle%20swarms%20%20A%20comprehensive%20review.pdf): **Asian Journal of Control - 2022 - Ouyang - Formation control of unmanned aerial vehicle swarms A comprehensive review**  
@@ -36,14 +40,37 @@ This research task presents a novel drone network architecture, named MQLINK, fo
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/d4bcbed4-3b27-4dff-b20a-02e0c8c078a8)
 The communication framework discussed by author of paper consists of two networks: a broadcast network and a chain network.  
 
-1. Broadcast Network: It facilitates communication among agents by sharing collision-free trajectories.
+4.1. Broadcast Network: It facilitates communication among agents by sharing collision-free trajectories.
 Trajectories are immediately broadcast to all agents, who then store them for generating safe trajectories when needed.
 Two methods are proposed to reduce the possibility of collisions:
 Trajectories are broadcast at a given frequency to avoid computational burden.
 Agents check for potential collisions upon receiving trajectories and generate new collision-free trajectories if necessary.
 The computational complexity is managed by comparing an agent's position with trajectories received from surrounding agents within the planning range.  
   
-2. Chain Network:  This network is used for timestamp synchronization and system startup management.
+4.2. Chain Network:  This network is used for timestamp synchronization and system startup management.
 Agents generate trajectories in a predefined order during system startup.
 Each agent generates its initial trajectory after receiving trajectories from agents with higher priority through the chain network, preventing chaos during startup.
 In summary, the communication framework employs a broadcast network for immediate trajectory sharing and collision avoidance and a chain network for orderly trajectory generation during system startup.
+
+5. ROS2SWARM - A ROS 2 Package for Swarm Robot Behaviors: http://heikohamann.de/pub/kaiserICRA2022.pdf  
+   — Developing reusable software for mobile robots
+is still challenging. Even more so for swarm robots, despite
+the desired simplicity of the robot controllers. Prototyping and
+experimenting are difficult due to the multi-robot setting and
+often require robot-robot communication. Also, the diversity
+of swarm robot hardware platforms increases the need for
+hardware-independent software concepts. The main advantages
+of the commonly used robot software architecture ROS 2 are
+modularity and platform independence. We propose a new
+ROS 2 package, ROS2SWARM, for applications of swarm
+robotics that provides a library of ready-to-use swarm behavioral primitives. We show the successful application of our
+approach on three different platforms, the TurtleBot3 Burger,
+the TurtleBot3 Waffle Pi, and the Jackal UGV, and with a set of
+different behavioral primitives, such as aggregation, dispersion,
+and collective decision-making. The proposed approach is easy
+to maintain, extendable, and has good potential for simplifying
+swarm robotics experiments in future applications.  
+
+# Videos
+1. Drone Swarm Simulation in ROS, Gazebo, Ardupilot & QGroundControl: https://youtu.be/8DAmQF_gQn4?si=MaCl836536xQ-AuK
+2. Multi Videos: https://www.youtube.com/@ctu-mrs/videos
