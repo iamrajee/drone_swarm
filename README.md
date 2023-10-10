@@ -1,6 +1,21 @@
 # drone_swarm
 
-# Experiments
+# Index
+- Resources
+<!---
+- [Installation](https://github.com/iamrajee/slam_rosmelodic_ws#installation)
+- [Package description](https://github.com/iamrajee/slam_rosmelodic_ws#package-description)
+- [Helper scripts](https://github.com/iamrajee/slam_rosmelodic_ws#helper-scripts)
+- [Team](https://github.com/iamrajee/slam_rosmelodic_ws#team)
+- [Contributing](https://github.com/iamrajee/slam_rosmelodic_ws#contributing)
+- [FAQ](https://github.com/iamrajee/slam_rosmelodic_ws#faq)
+- [Support](https://github.com/iamrajee/slam_rosmelodic_ws#support)
+- [License](https://github.com/iamrajee/slam_rosmelodic_ws#license)
+- [Acknowledgments](https://github.com/iamrajee/slam_rosmelodic_ws#acknowledgments)
+-->
+# Resources
+
+## Experiments with various Repositories
 1. ego-planner & ego-planner-swarm: code, [Video 1](https://youtu.be/3Qbo0vZSxag), [2](https://youtu.be/HOO_PjKB0Ws), [Herd](https://youtu.be/HOO_PjKB0Ws), [V2](https://youtu.be/bdVy5nFA1N8)
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/73973c82-e78e-4a1b-aa63-03cb844e9dfe)
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/1bd0567a-bab7-47a4-b4a4-c44d384b88db)
@@ -12,7 +27,7 @@
 4.  **ros2swarm**:
 5.  **micros_swarm_framework**: http://wiki.ros.org/micros_swarm_framework
 
-# Resources
+## Relavent Papers
 1. [Paper](https://github.com/iamrajee/drone_swarm/blob/main/resources/paper/Asian%20Journal%20of%20Control%20-%202022%20-%20Ouyang%20-%20Formation%20control%20of%20unmanned%20aerial%20vehicle%20swarms%20%20A%20comprehensive%20review.pdf): **Asian Journal of Control - 2022 - Ouyang - Formation control of unmanned aerial vehicle swarms A comprehensive review**  
 The unmanned aerial vehicle formation plays a crucial role in numerous
 applications, such as reconnaissance, agricultural plant protection, and electric
@@ -71,12 +86,14 @@ and collective decision-making. The proposed approach is easy
 to maintain, extendable, and has good potential for simplifying
 swarm robotics experiments in future applications.  
 
-# Videos
+6. Minimum Snap Trajectory Generation and Control for Quadrotors [Paper](https://ieeexplore.ieee.org/document/5980409)
+
+## Videos
 1. Drone Swarm Simulation in ROS, Gazebo, Ardupilot & QGroundControl: https://youtu.be/8DAmQF_gQn4?si=MaCl836536xQ-AuK
 2. Multi Videos: https://www.youtube.com/@ctu-mrs/videos
 3. 
 
-# Discussion
+## Discussion
 1. Latency and communication proble with ego planner? Works fine for ~10 drones in real life testing.  
 https://github.com/ZJU-FAST-Lab/ego-planner-swarm/issues/30  
 
