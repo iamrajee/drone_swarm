@@ -74,3 +74,9 @@ swarm robotics experiments in future applications.
 # Videos
 1. Drone Swarm Simulation in ROS, Gazebo, Ardupilot & QGroundControl: https://youtu.be/8DAmQF_gQn4?si=MaCl836536xQ-AuK
 2. Multi Videos: https://www.youtube.com/@ctu-mrs/videos
+3. 
+
+# Discussion
+1. Latency and communication proble with ego planner? Works fine for ~10 drones in real life testing.  
+https://github.com/ZJU-FAST-Lab/ego-planner-swarm/issues/30  
+
