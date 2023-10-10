@@ -31,6 +31,7 @@
    
 4.  **ros2swarm**:
 5.  **micros_swarm_framework**: http://wiki.ros.org/micros_swarm_framework
+6.  Extended Ego planner: https://gitee.com/tiemuhua/ego_refactored
 
 ## Relavent Papers
 1. [Paper](https://github.com/iamrajee/drone_swarm/blob/main/resources/paper/Asian%20Journal%20of%20Control%20-%202022%20-%20Ouyang%20-%20Formation%20control%20of%20unmanned%20aerial%20vehicle%20swarms%20%20A%20comprehensive%20review.pdf): **Asian Journal of Control - 2022 - Ouyang - Formation control of unmanned aerial vehicle swarms A comprehensive review**  
