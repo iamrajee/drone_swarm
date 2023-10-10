@@ -1,6 +1,4 @@
-# drone_swarm
-
-# Index
+# Table of content
 - [Resources](https://github.com/iamrajee/drone_swarm/tree/main#resources)
    - [Experiments with various Repositories](https://github.com/iamrajee/drone_swarm/tree/main#experiments-with-various-repositories)
    - [Relavent Papers](https://github.com/iamrajee/drone_swarm/tree/main#relavent-papers)
