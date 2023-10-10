@@ -6,6 +6,7 @@
    - [Discussion](https://github.com/iamrajee/drone_swarm/tree/main#discussion)
  
 - [miscellaneous.md](https://github.com/iamrajee/drone_swarm/blob/main/miscellaneous.md)
+- [Code](https://github.com/iamrajee/drone_swarm/tree/main/code)
 <!---
 - [Installation](https://github.com/iamrajee/slam_rosmelodic_ws#installation)
 - [Package description](https://github.com/iamrajee/slam_rosmelodic_ws#package-description)
