@@ -1,7 +1,13 @@
 # drone_swarm
 
 # Index
-- Resources
+- [Resources](https://github.com/iamrajee/drone_swarm/tree/main#resources)
+   - E[xperiments with various Repositories](https://github.com/iamrajee/drone_swarm/tree/main#experiments-with-various-repositories)
+   - [Relavent Papers](https://github.com/iamrajee/drone_swarm/tree/main#relavent-papers)
+   - [Videos](https://github.com/iamrajee/drone_swarm/tree/main#videos)
+   - [Discussion](https://github.com/iamrajee/drone_swarm/tree/main#discussion)
+ 
+- [miscellaneous.md](https://github.com/iamrajee/drone_swarm/blob/main/miscellaneous.md)
 <!---
 - [Installation](https://github.com/iamrajee/slam_rosmelodic_ws#installation)
 - [Package description](https://github.com/iamrajee/slam_rosmelodic_ws#package-description)
