@@ -100,6 +100,14 @@ swarm robotics experiments in future applications.
 3. 
 
 ## Discussion
-1. Latency and communication proble with ego planner? Works fine for ~10 drones in real life testing.  
-https://github.com/ZJU-FAST-Lab/ego-planner-swarm/issues/30  
+1. Latency and communication proble with ego planner? Works fine for ~10 drones in real-life testing.  
+https://github.com/ZJU-FAST-Lab/ego-planner-swarm/issues/30
+
+## Architecture Diagram
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/a768ce70-7a92-4b5e-bfdb-cb3c31c12cc8)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/9ad054ea-2853-43b3-a593-71ffee434501)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/414177fb-c935-4345-a4f8-bdae3e8b0657)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/90530ee1-3b5c-4a8c-9973-77b642719661)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/be336ffa-32ce-43ad-b41c-03683a71a5d3)
+
 
