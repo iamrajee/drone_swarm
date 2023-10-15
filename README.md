@@ -1,6 +1,26 @@
-# drone_swarm
+# Table of content
+- [Resources](https://github.com/iamrajee/drone_swarm/tree/main#resources)
+   - [Experiments with various Repositories](https://github.com/iamrajee/drone_swarm/tree/main#experiments-with-various-repositories)
+   - [Relavent Papers](https://github.com/iamrajee/drone_swarm/tree/main#relavent-papers)
+   - [Videos](https://github.com/iamrajee/drone_swarm/tree/main#videos)
+   - [Discussion](https://github.com/iamrajee/drone_swarm/tree/main#discussion)
+ 
+- [miscellaneous.md](https://github.com/iamrajee/drone_swarm/blob/main/miscellaneous.md) ([Docs version](https://docs.google.com/document/d/1-t3jcnEsvo-fB-qy1Mbw-cfyZk_PeQISZ7StKZA2MRg/edit?usp=sharing))
+- [Code](https://github.com/iamrajee/drone_swarm/tree/main/code)
+<!---
+- [Installation](https://github.com/iamrajee/slam_rosmelodic_ws#installation)
+- [Package description](https://github.com/iamrajee/slam_rosmelodic_ws#package-description)
+- [Helper scripts](https://github.com/iamrajee/slam_rosmelodic_ws#helper-scripts)
+- [Team](https://github.com/iamrajee/slam_rosmelodic_ws#team)
+- [Contributing](https://github.com/iamrajee/slam_rosmelodic_ws#contributing)
+- [FAQ](https://github.com/iamrajee/slam_rosmelodic_ws#faq)
+- [Support](https://github.com/iamrajee/slam_rosmelodic_ws#support)
+- [License](https://github.com/iamrajee/slam_rosmelodic_ws#license)
+- [Acknowledgments](https://github.com/iamrajee/slam_rosmelodic_ws#acknowledgments)
+-->
+# Resources
 
-# Experiments
+## Experiments with various Repositories
 1. ego-planner & ego-planner-swarm: code, [Video 1](https://youtu.be/3Qbo0vZSxag), [2](https://youtu.be/HOO_PjKB0Ws), [Herd](https://youtu.be/HOO_PjKB0Ws), [V2](https://youtu.be/bdVy5nFA1N8)
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/73973c82-e78e-4a1b-aa63-03cb844e9dfe)
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/1bd0567a-bab7-47a4-b4a4-c44d384b88db)
@@ -11,8 +31,9 @@
    
 4.  **ros2swarm**:
 5.  **micros_swarm_framework**: http://wiki.ros.org/micros_swarm_framework
+6.  Extended Ego planner: https://gitee.com/tiemuhua/ego_refactored
 
-# Resources
+## Relavent Papers
 1. [Paper](https://github.com/iamrajee/drone_swarm/blob/main/resources/paper/Asian%20Journal%20of%20Control%20-%202022%20-%20Ouyang%20-%20Formation%20control%20of%20unmanned%20aerial%20vehicle%20swarms%20%20A%20comprehensive%20review.pdf): **Asian Journal of Control - 2022 - Ouyang - Formation control of unmanned aerial vehicle swarms A comprehensive review**  
 The unmanned aerial vehicle formation plays a crucial role in numerous
 applications, such as reconnaissance, agricultural plant protection, and electric
@@ -71,12 +92,22 @@ and collective decision-making. The proposed approach is easy
 to maintain, extendable, and has good potential for simplifying
 swarm robotics experiments in future applications.  
 
-# Videos
+6. Minimum Snap Trajectory Generation and Control for Quadrotors [Paper](https://ieeexplore.ieee.org/document/5980409)
+
+## Videos
 1. Drone Swarm Simulation in ROS, Gazebo, Ardupilot & QGroundControl: https://youtu.be/8DAmQF_gQn4?si=MaCl836536xQ-AuK
 2. Multi Videos: https://www.youtube.com/@ctu-mrs/videos
 3. 
 
-# Discussion
-1. Latency and communication proble with ego planner? Works fine for ~10 drones in real life testing.  
-https://github.com/ZJU-FAST-Lab/ego-planner-swarm/issues/30  
+## Discussion
+1. Latency and communication proble with ego planner? Works fine for ~10 drones in real-life testing.  
+https://github.com/ZJU-FAST-Lab/ego-planner-swarm/issues/30
+
+## Architecture Diagram
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/a768ce70-7a92-4b5e-bfdb-cb3c31c12cc8)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/9ad054ea-2853-43b3-a593-71ffee434501)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/414177fb-c935-4345-a4f8-bdae3e8b0657)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/90530ee1-3b5c-4a8c-9973-77b642719661)
+![image](https://github.com/iamrajee/drone_swarm/assets/25712145/be336ffa-32ce-43ad-b41c-03683a71a5d3)
+
 
