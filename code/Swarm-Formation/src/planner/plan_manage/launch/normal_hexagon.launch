@@ -5,7 +5,7 @@
 
     <arg name="odom_topic" value="visual_slam/odom" />
     
-    <arg name="formation_type" value="1" />
+    <arg name="formation_type" value="2" />
     
     <!-- swarm topic transmitter bridge-->
     <include file="$(find swarm_bridge)/launch/bridge.launch">
