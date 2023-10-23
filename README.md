@@ -95,6 +95,8 @@ to maintain, extendable, and has good potential for simplifying
 swarm robotics experiments in future applications.  
 
 6. Minimum Snap Trajectory Generation and Control for Quadrotors [Paper](https://ieeexplore.ieee.org/document/5980409)
+7. Robust and Efficient Trajectory Planning for Formation Flight in Dense Environments: https://arxiv.org/pdf/2210.04048.pdf
+
 
 ## Videos
 1. Drone Swarm Simulation in ROS, Gazebo, Ardupilot & QGroundControl: https://youtu.be/8DAmQF_gQn4?si=MaCl836536xQ-AuK
