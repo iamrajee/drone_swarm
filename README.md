@@ -96,6 +96,7 @@ swarm robotics experiments in future applications.
 
 6. Minimum Snap Trajectory Generation and Control for Quadrotors [Paper](https://ieeexplore.ieee.org/document/5980409)
 7. Robust and Efficient Trajectory Planning for Formation Flight in Dense Environments: https://arxiv.org/pdf/2210.04048.pdf
+8. Geometrically Constrained Trajectory Optimization for Multicopters: https://arxiv.org/pdf/2103.00190.pdf
 
 
 ## Videos
