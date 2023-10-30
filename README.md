@@ -34,6 +34,9 @@
 4.  **ros2swarm**:
 5.  **micros_swarm_framework**: http://wiki.ros.org/micros_swarm_framework
 6.  Extended Ego planner: https://gitee.com/tiemuhua/ego_refactored
+7.   swarm_ros_bridge
+8.   slim_bridge ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/79e3127f-f76b-465e-b79a-82c15352a0e2)
+
 
 ## Relavent Papers
 1. [Paper](https://github.com/iamrajee/drone_swarm/blob/main/resources/paper/Asian%20Journal%20of%20Control%20-%202022%20-%20Ouyang%20-%20Formation%20control%20of%20unmanned%20aerial%20vehicle%20swarms%20%20A%20comprehensive%20review.pdf): **Asian Journal of Control - 2022 - Ouyang - Formation control of unmanned aerial vehicle swarms A comprehensive review**  
@@ -95,6 +98,11 @@ to maintain, extendable, and has good potential for simplifying
 swarm robotics experiments in future applications.  
 
 6. Minimum Snap Trajectory Generation and Control for Quadrotors [Paper](https://ieeexplore.ieee.org/document/5980409)
+7. Robust and Efficient Trajectory Planning for Formation Flight in Dense Environments: https://arxiv.org/pdf/2210.04048.pdf
+8. Geometrically Constrained Trajectory Optimization for Multicopters: https://arxiv.org/pdf/2103.00190.pdf
+9. https://www.researchgate.net/profile/David-St-Onge/publication/322368758_SWARMING_IN_ROS_FROM_DESIGN_TO_DEPLOYMENT/links/5a564bd10f7e9bf2a536c0cf/SWARMING-IN-ROS-FROM-DESIGN-TO-DEPLOYMENT.pdf
+10. 
+
 
 ## Videos
 1. Drone Swarm Simulation in ROS, Gazebo, Ardupilot & QGroundControl: https://youtu.be/8DAmQF_gQn4?si=MaCl836536xQ-AuK
