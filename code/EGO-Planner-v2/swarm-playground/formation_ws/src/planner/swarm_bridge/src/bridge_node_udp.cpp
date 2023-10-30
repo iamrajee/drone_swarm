@@ -334,19 +334,23 @@ int main(int argc, char **argv)
     exit(EXIT_FAILURE);
   }
 
-  other_odoms_sub_ = nh.subscribe("my_odom", 10, odom_sub_udp_cb, ros::TransportHints().tcpNoDelay());
+  ros::TransportHints transport_hints;
+  // transport_hints.tcpNoDelay(true); //no delay
+  transport_hints.tcpNoDelay(false); //with delay
+
+  other_odoms_sub_ = nh.subscribe("my_odom", 10, odom_sub_udp_cb, transport_hints); //ros::TransportHints().tcpNoDelay());
   other_odoms_pub_ = nh.advertise<nav_msgs::Odometry>("/others_odom", 10);
 
-  one_traj_sub_ = nh.subscribe("/broadcast_traj_from_planner", 100, one_traj_sub_udp_cb, ros::TransportHints().tcpNoDelay());
+  one_traj_sub_ = nh.subscribe("/broadcast_traj_from_planner", 100, one_traj_sub_udp_cb, transport_hints); //ros::TransportHints().tcpNoDelay());
   one_traj_pub_ = nh.advertise<traj_utils::MINCOTraj>("/broadcast_traj_to_planner", 100);
 
   // mandatory_stop_sub_ = nh.subscribe("/mandatory_stop_from_users", 100, mandatory_stop_sub_udp_cb, ros::TransportHints().tcpNoDelay());
   // mandatory_stop_pub_ = nh.advertise<std_msgs::Empty>("/mandatory_stop_to_planner", 100);
 
-  goal_sub_ = nh.subscribe("/goal_user2brig", 100, goal_sub_udp_cb, ros::TransportHints().tcpNoDelay());
+  goal_sub_ = nh.subscribe("/goal_user2brig", 100, goal_sub_udp_cb, transport_hints); //ros::TransportHints().tcpNoDelay());
   goal_pub_ = nh.advertise<quadrotor_msgs::GoalSet>("/goal_brig2plner", 100);
 
-  joy_sub_ = nh.subscribe("/joystick_from_users", 100, joy_sub_udp_cb, ros::TransportHints().tcpNoDelay());
+  joy_sub_ = nh.subscribe("/joystick_from_users", 100, joy_sub_udp_cb, transport_hints); //ros::TransportHints().tcpNoDelay());
   joy_pub_ = nh.advertise<sensor_msgs::Joy>("/joystick_from_bridge", 100);
 
   boost::thread udp_recv_thd(udp_recv_fun);
