@@ -220,7 +220,7 @@ namespace ego_planner
       else if ((t_cur > info->duration - 1e-2) && touch_the_goal) // local target close to the global target
       {
         have_target_ = false;
-        have_trigger_ = false;
+        // have_trigger_ = false; //new-commented
 
         if (target_type_ == TARGET_TYPE::PRESET_TARGET)
         {
@@ -239,7 +239,7 @@ namespace ego_planner
         if (planner_manager_->grid_map_->getInflateOccupancy(end_pt_))
         {
           have_target_ = false;
-          have_trigger_ = false;
+          // have_trigger_ = false; //new-commented
           ROS_ERROR("The goal is in obstacles, finish the planning.");
           callEmergencyStop(odom_pos_);
 
