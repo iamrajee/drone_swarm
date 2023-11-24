@@ -817,6 +817,7 @@ namespace ego_planner
       polyTraj2ROSMsg(msg);
       poly_traj_pub_.publish(msg);
       broadcast_ploytraj_pub_.publish(msg);
+      ros::Duration(2).sleep();
       have_local_traj_ = true;
     }
 

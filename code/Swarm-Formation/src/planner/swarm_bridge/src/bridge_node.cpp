@@ -149,7 +149,7 @@ void odom_sub_udp_cb(const nav_msgs::OdometryPtr &msg)
 
   int len = serializeTopic(MESSAGE_TYPE::ODOM, *msg);
   
-  ros::Duration(2).sleep(); //new universal delay
+  // ros::Duration(2).sleep(); //new universal delay
   // static bool 	sleepUntil (const Time &end)
 
   if (sendto(udp_send_fd_, udp_send_buf_, len, 0, (struct sockaddr *)&addr_udp_send_, sizeof(addr_udp_send_)) <= 0)
@@ -163,7 +163,7 @@ void one_traj_sub_udp_cb(const traj_utils::PolyTrajPtr &msg)
 
   int len = serializeTopic(MESSAGE_TYPE::ONE_TRAJ, *msg);
 
-  ros::Duration(0.5).sleep(); //new universal delay
+  // ros::Duration(0.5).sleep(); //new universal delay
 
   if (sendto(udp_send_fd_, udp_send_buf_, len, 0, (struct sockaddr *)&addr_udp_send_, sizeof(addr_udp_send_)) <= 0)
   {
