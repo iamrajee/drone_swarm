@@ -7,7 +7,7 @@
    - [Videos](https://github.com/iamrajee/drone_swarm/tree/main#videos)
    - [Discussion](https://github.com/iamrajee/drone_swarm/tree/main#discussion)
  
-- [miscellaneous.md](https://github.com/iamrajee/drone_swarm/blob/main/miscellaneous.md) ([Docs version](https://docs.google.com/document/d/1-t3jcnEsvo-fB-qy1Mbw-cfyZk_PeQISZ7StKZA2MRg/edit?usp=sharing))
+- [miscellaneous.md](https://github.com/iamrajee/drone_swarm/blob/main/miscellaneous.md)
 - [Code](https://github.com/iamrajee/drone_swarm/tree/main/code)
 <!---
 - [Installation](https://github.com/iamrajee/slam_rosmelodic_ws#installation)
