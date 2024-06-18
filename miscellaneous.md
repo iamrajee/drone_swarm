@@ -1,4 +1,3 @@
-# See more updated docs version [here](https://docs.google.com/document/d/1-t3jcnEsvo-fB-qy1Mbw-cfyZk_PeQISZ7StKZA2MRg/edit?usp=sharing): 
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/88b85c9a-959a-423c-ac6f-3a09e966c033)
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/c5025c35-9c1a-4a98-88ce-3bc6e076a48a)
 ![image](https://github.com/iamrajee/drone_swarm/assets/25712145/85ca43a8-0678-4e5f-837a-3ec145fd5a80)
